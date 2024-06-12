@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='main.js'></script>
+    <style>
+        .arkp{
+           height: 100px;
+           width: 100px;
+           background-color: red; 
+        }
+        .arkp1{
+           height: 100px;
+           width: 100px;
+           background-color: blue; 
+        }
+    </style>
+    <script>
+        function change(){
+        //    document.getElementsByClassName('arkp')[0].style.backgroundColor="blue";
+           document.getElementsByClassName('arkp')[0].className="arkp1";
+
+        }
+    </script>
+</head>
+
+<body>
+    <div class="arkp" >
+        <p>Hello Wrld </p>
+    </div>
+    <button onclick="change()">Click</button>
+</body>
+</html>
